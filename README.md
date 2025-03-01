@@ -21,7 +21,16 @@ O site Insight sera um site que terá a visão de que o usuario digite uma palav
 
 Primeiros passos:
 
-Clonar o Repositorios 
+clonar o repositorio no git.
+
+abrir terminal configurando do git:
+
+1- git config --global user.name "Seu Nome"
+
+
+
+
+
 
 
 
