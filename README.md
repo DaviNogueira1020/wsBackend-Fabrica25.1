@@ -1,37 +1,32 @@
-# Projeto Insight 
+# Projeto Insight
 
-O projeto Insight é um site criado em Python utilizando a biblioteca Django, irá possuir todo o crud do Django com duas ou mais entidades relacionadas,alem disso ele ira consumir a 'Advice Slip API' como a API externa, "http://api.adviceslip.com/advice".
+## Visão Geral
+O **Projeto Insight** é um site desenvolvido em Python utilizando a biblioteca Django. O site irá implementar todas as operações de CRUD do Django com duas ou mais entidades relacionadas. Além disso, ele irá consumir a 'Advice Slip API' como API externa: [Advice Slip API](http://api.adviceslip.com/advice).
 
-os documentos requeridos do projeto será:
-1- .gitignore;
-2- requeriments.txt;
-3- README.md;
-4- Dockerfile
+### Documentação Requerida
+O projeto contará com os seguintes documentos:
+1. `.gitignore` - Arquivo para ignorar arquivos específicos no Git.
+2. `requirements.txt` - Lista de dependências do projeto.
+3. `README.md` - Documento de introdução e instruções do projeto.
+4. `Dockerfile` - Arquivo de configuração para containerização do projeto.
 
-com os diferenciais de tero MySQL como banco de dados externo. 
-serão usadas comits semanticas e seguirei as boas praticas da programação tendo uma boa organização dos diretorios e branches. 
-Com os arquivos devidamente nomeados da forma correta. 
-Com funçoes e entidades simples.
-O repositorio do github organizado e toda documentação bem feita.
-A parte do front será da forma mais simples e conceitual.
-e Tokens de Autenticação.
+### Diferenciais do Projeto
+- **Banco de Dados Externo**: Utilização do MySQL como banco de dados externo.
+- **Commits Semânticos**: Uso de commits semânticos para um histórico de alterações claro e significativo.
+- **Boas Práticas**: Seguir as melhores práticas de programação com uma boa organização de diretórios e branches.
+- **Nomenclatura Correta**: Arquivos devidamente nomeados de forma clara e padronizada.
+- **Simplicidade**: Funções e entidades simples para melhor manutenção e entendimento.
+- **Repositório Organizado**: O repositório do GitHub será organizado e a documentação será bem detalhada.
+- **Front-end Conceitual**: A interface será desenvolvida de forma simples e conceitual.
+- **Tokens de Autenticação**: Implementação de tokens de autenticação para segurança do usuário.
 
+### Funcionalidade do Site
+O **Insight** permitirá que os usuários:
+1. Digitem uma palavra-chave para receber um conselho relacionado a essa palavra.
+2. Salvem, editem e excluam conselhos personalizados na aba "Meus Conselhos".
 
-O site Insight sera um site que terá a visão de que o usuario digite uma palavra chave e com essa palavra o site irá dar um conselho ligado a essa palavra chave, com isso a pessoa pode salvar e depois alterar/editar da forma que preferir e salvar o seu conselho na aba 'Meus Conselhos', e na hora que quiser ela poderá editar ou excluir o conselho salvo na aba "Meus Conselhos".
-
-Primeiros passos:
-
-clonar o repositorio no git.
-
-abrir terminal configurando do git:
-
-1- git config --global user.name "Seu Nome"
-
-
-
-
-
-
-
-
-
+## Fluxo do Usuário
+1. **Inserir Palavra-Chave**: O usuário digita uma palavra-chave no campo de busca.
+2. **Receber Conselho**: O site fornece um conselho relacionado à palavra-chave.
+3. **Salvar Conselho**: O usuário pode salvar o conselho na aba "Meus Conselhos".
+4. **Editar/Excluir Conselho**: O usuário poderá editar ou excluir conselhos salvos conforme sua necessidade.
